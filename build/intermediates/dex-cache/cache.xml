@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_b3b3d05afe6e090a52b8846e4f4566f4d7ed4db3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_3231a93bb3901572ffe725b568021bae913f58f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_29e6b3261979e4d59a696eeeb2fcbd4088f61e06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="809472c357c691f0f2aeeefefeb4b97f4761df5d">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eafcd9747e684056a603b63fc6f837a78ea442b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_2d97f3f1e646823f1b42bf855b1ca0729c8e6a14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_299544c9d09e9eece3effb6c3f336519a5f081be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_1040b959ce932284d3b4288261c24c0df33c4fbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d88423d34ebb0b4e6cea50c7c83278acd94fa03d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_d0b216fb8b568ed1254159ed628a261671e8336d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_f55c085bca493a4132f957219b2890fa04946b84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_66d773b8c06a2845d317effa359dae5343e3f67e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a3fb7788357e6c3deb37213fb77bc6b65d7bbf98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_d230a19b81c5d14c4d9724cbe90b4c9864e0536f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_dfb56daca6c3699355e1b43948b18c202da0c358/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_361f7908591f43358ba148747f3599e7261c02ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_a0e0b08e0793e73796b3742db5eae44416ad7695/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ecd9eeba189acc73a41b3439878fce92c50d98e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6e77161b80a468cb0c0901a79d777789ae70c353/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a0a193ca6fe14a010a3d1f26b4e67e56c4256f9e">
+        <dex dex="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4b75df0d5b4ba089c879d72222a64e561293533b/classes.dex" />
+    </item>
+
+</items>
