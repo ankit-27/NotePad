@@ -1,4 +1,4 @@
-#Fri Apr 14 19:22:28 IST 2017
+#Sat Apr 15 23:22:22 IST 2017
 base.0=/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4b75df0d5b4ba089c879d72222a64e561293533b
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -33,7 +33,7 @@ public class newNote extends Activity {
 
         mydb = new DBHelper(this);
 
-        Bundle extras = getIntent().getExtras();
+        /*Bundle extras = getIntent().getExtras();
         if (extras!=null) {
             int Value = extras.getInt("id");
 
@@ -49,12 +49,13 @@ public class newNote extends Activity {
                     rs.close();
                 }
             }
-        }
+        }*/
 
     }
 
     public void save(View view) {
-        Bundle extras = getIntent().getExtras();
+        //Toast.makeText(getApplicationContext(),"save",Toast.LENGTH_SHORT).show();
+        /*Bundle extras = getIntent().getExtras();
         if (extras!=null) {
             int Value = extras.getInt("id");
             if (Value>0){
@@ -77,6 +78,11 @@ public class newNote extends Activity {
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
             }
-        }
+        }*/
+
+        mydb.insertNotes(fileName.getText().toString(),message.getText().toString());
+        Toast.makeText(getApplicationContext(),"Saved",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
     }
 }

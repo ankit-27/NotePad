@@ -13,9 +13,13 @@ import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     String[] mobileArray = {"Android","Iphone","Blackberry","Nokia","Ubuntu","Mac OS X","Windows"};
+
+    DBHelper mydb = new DBHelper(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.activity_listview,mobileArray);
+        ArrayList<String> savedFileList = mydb.getAllNotes();
+
+        ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.activity_listview,savedFileList);
 
         ListView list = (ListView) findViewById(R.id.listview);
         list.setAdapter(adapter);
