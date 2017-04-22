@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -15,9 +16,8 @@ import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "MyNotepad.db";
+    public static final String DATABASE_NAME = "MyNotepad";
     public static final String NOTEPAD_TABLE_NAME = "notepad";
-    public static final String NOTEPAD_COLUMN_ID = "id";
     public static final String NOTEPAD_COLUMN_TITLE = "title";
     public static final String NOTEPAD_COLUMN_MSG = "msg";
 
@@ -29,7 +29,9 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table notepad"+"(id integer primary key,title text,msg text)");
+        String CREATE_TABLE = "CREATE TABLE " + NOTEPAD_TABLE_NAME + "(" + NOTEPAD_COLUMN_TITLE +
+                " TEXT PRIMARY KEY," + NOTEPAD_COLUMN_MSG + " TEXT" + ")";
+        db.execSQL(CREATE_TABLE);
     }
 
     @Override
@@ -38,19 +40,27 @@ public class DBHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public boolean insertNotes(String title, String msg) {
+    public void delete(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS notepad");
+        onCreate(db);
+    }
+
+    public boolean insertNotes(String titl, String ms) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
-        contentValues.put("title",title);
-        contentValues.put("msg",msg);
-        db.insert("notepad",null,contentValues);
+        contentValues.put(NOTEPAD_COLUMN_TITLE,titl);
+        contentValues.put(NOTEPAD_COLUMN_MSG,ms);
+        db.insert(NOTEPAD_TABLE_NAME,null,contentValues);
         return true;
     }
 
-    public Cursor getData(int id) {
+    public String getData(String t) {
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor res = db.rawQuery("select * from notepad where id="+id+" ",null);
-        return res;
+        Cursor res = db.rawQuery("select * from "+ NOTEPAD_TABLE_NAME + " where " + NOTEPAD_COLUMN_TITLE + "="+"'"+t+"'"+" "
+                ,null);
+        String a = res.getString(res.getColumnIndex(NOTEPAD_COLUMN_MSG));
+        return a;
     }
 
     public int numberOfRows(){
@@ -80,5 +90,18 @@ public class DBHelper extends SQLiteOpenHelper {
             res.moveToNext();
         }
         return array_list;
+    }
+
+    public ArrayList<String> getAllMsg(){
+        ArrayList<String> msg_list = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("select * from notepad",null);
+        res.moveToFirst();
+
+        while (res.isAfterLast()==false){
+            msg_list.add(res.getString(res.getColumnIndex(NOTEPAD_COLUMN_MSG)));
+            res.moveToNext();
+        }
+        return msg_list;
     }
 }

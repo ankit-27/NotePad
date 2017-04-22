@@ -2599,7 +2599,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c005b;
         public static final int action_mode_bar_stub=0x7f0c005a;
         public static final int action_mode_close_button=0x7f0c003f;
-        public static final int action_settings=0x7f0c008c;
+        public static final int action_settings=0x7f0c008e;
         public static final int activity_chooser_view_content=0x7f0c0040;
         public static final int add=0x7f0c001a;
         public static final int alertTitle=0x7f0c004c;
@@ -2722,6 +2722,8 @@ containing a value of this type.
         public static final int touch_outside=0x7f0c0072;
         public static final int up=0x7f0c0009;
         public static final int useLogo=0x7f0c0014;
+        public static final int viewMessage=0x7f0c008d;
+        public static final int viewTitle=0x7f0c008c;
         public static final int view_offset_helper=0x7f0c000a;
         public static final int withText=0x7f0c003a;
         public static final int wrap_content=0x7f0c0020;
@@ -2791,6 +2793,7 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f040034;
         public static final int select_dialog_singlechoice_material=0x7f040035;
         public static final int support_simple_spinner_dropdown_item=0x7f040036;
+        public static final int view_note=0x7f040037;
     }
     public static final class menu {
         public static final int menu_main=0x7f0d0000;

@@ -27,6 +27,9 @@
         <activity
             android:name="myapp.com.notepad.newNote"
             android:parentActivityName="myapp.com.notepad.MainActivity" />
+        <activity
+            android:name="myapp.com.notepad.viewNote"
+            android:parentActivityName="myapp.com.notepad.MainActivity" />
     </application>
 
 </manifest>

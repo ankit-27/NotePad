@@ -192,6 +192,10 @@
         "source": "/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/res/merged/debug/layout/view_note.xml",
+        "source": "/home/ankit/AndroidStudioProjects/NotePad/app/src/main/res/layout/view_note.xml"
+    },
+    {
         "merged": "/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_icon.xml"
     },

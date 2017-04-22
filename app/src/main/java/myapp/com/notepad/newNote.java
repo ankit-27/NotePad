@@ -16,7 +16,7 @@ import android.widget.Toast;
  * Created by ankit on 9/4/17.
  */
 
-public class newNote extends Activity {
+public class newNote extends AppCompatActivity {
 
     private DBHelper mydb ;
 

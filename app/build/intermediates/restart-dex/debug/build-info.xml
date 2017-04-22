@@ -4,33 +4,53 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="8668742001244"
+    timestamp="32684823843633"
     token="-5087867614598477046"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2251" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="186" />
+        duration="0" />
     <task
         name="verifier"
-        duration="47" />
+        duration="0" />
 
     <artifact
-        location="/home/ankit/AndroidStudioProjects/NotePad/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="8668742001244"
+        timestamp="32101078754075"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/ankit/AndroidStudioProjects/NotePad/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="32230659865834"
+        verifier="METHOD_DELETED" >
+        <artifact
+            location="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="32684823843633"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/ankit/AndroidStudioProjects/NotePad/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

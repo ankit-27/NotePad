@@ -21,6 +21,8 @@
 
         <activity android:name=".newNote"
             android:parentActivityName=".MainActivity"/>
+        <activity android:name=".viewNote"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

@@ -10,14 +10,19 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import static myapp.com.notepad.R.id.listview;
+
 public class MainActivity extends AppCompatActivity {
 
-    String[] mobileArray = {"Android","Iphone","Blackberry","Nokia","Ubuntu","Mac OS X","Windows"};
+    static String clickedItemPosition;
+    static int pos;
 
     DBHelper mydb = new DBHelper(this);
 
@@ -37,12 +42,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ArrayList<String> savedFileList = mydb.getAllNotes();
+        final ArrayList<String> savedFileList = mydb.getAllNotes();
 
         ArrayAdapter adapter = new ArrayAdapter<String>(this,R.layout.activity_listview,savedFileList);
 
-        ListView list = (ListView) findViewById(R.id.listview);
+        ListView list = (ListView) findViewById(listview);
         list.setAdapter(adapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                clickedItemPosition = savedFileList.get(position);
+                pos=position;
+                Intent intent = new Intent(MainActivity.this,viewNote.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -66,4 +81,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
